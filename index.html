@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brasa Verde | Cozinha Brasileira</title>
+  <meta name="description" content="Brasa Verde: comida brasileira de verdade, churrasco, petiscos e drinks. Peça agora ou faça sua reserva.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Brasa Verde, voltar ao início">
+        <span class="logo__icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="32" height="32"><path d="M16 3c2 5 7 7 7 14a7 7 0 0 1-14 0c0-4 2-6 3-8 1 3 2 4 3 4 0-4-1-7 1-10z" fill="currentColor"/></svg>
+        </span>
+        <span class="logo__text">Brasa<strong>Verde</strong></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#reservas">Reservas</a>
+        <a href="#contato">Contato</a>
+        <a href="#delivery" class="btn btn--small">Peça Agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+      <img src="assets/img/comida-brasileira.jpg" alt="Mesa com pratos típicos brasileiros: torresmo, farofa, feijão, mandioca e pimenta" class="hero__bg">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">Cozinha brasileira de raiz</p>
+        <h1>O sabor do Brasil<br>servido na <span class="text-green">brasa</span>!</h1>
+        <p class="hero__lead">Tempero de vó, fogo de chão e mesa farta. Do jeitinho que você gosta.</p>
+        <div class="hero__actions">
+          <a href="#delivery" class="btn">Peça agora em casa</a>
+          <a href="#reservas" class="btn btn--outline">Faça sua reserva já!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOME DE QUÊ ===== -->
+    <section class="split section" id="sobre-cardapio">
+      <div class="container split__inner">
+        <div class="split__text reveal">
+          <h2>Fome de quê?<br>A <span class="text-green">Brasa Verde</span> tem tudo!</h2>
+          <p>Bateu a dúvida entre um espetinho suculento, uma porção de coxinha ou aquele drink gelado? Aqui você não precisa escolher. Nosso cardápio junta o melhor da culinária brasileira para quem tem fome de verdade e não abre mão da variedade.</p>
+          <a href="#cardapio" class="btn">Ver o cardápio</a>
+        </div>
+        <div class="split__media reveal">
+          <img src="assets/img/rodizio-brasileiro.webp" alt="Espetos de churrasco, coxinhas, pão de queijo, sushi e drinks coloridos com a bandeira do Brasil ao fundo" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DELIVERY ===== -->
+    <section class="delivery section" id="delivery">
+      <div class="container delivery__inner reveal">
+        <div class="delivery__media">
+          <img src="assets/img/comida-brasileira.jpg" alt="Panelas de ferro com torresmo, feijão, farofa e caldinho" loading="lazy">
+        </div>
+        <div class="delivery__text">
+          <h2>O sabor da Brasa Verde onde você estiver</h2>
+          <p>A gente sabe que a fome não espera. Por isso preparamos tudo para você aproveitar nossa cozinha seja aqui na nossa mesa, seja no conforto do seu sofá.</p>
+          <h3>Onde a Brasa Verde te encontra?</h3>
+          <p>Estamos a um clique de distância. É só escolher e pedir.</p>
+          <div class="delivery__links">
+            <a href="https://wa.me/5521900000000" target="_blank" rel="noopener" class="icon-btn" aria-label="Pedir pelo WhatsApp">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4.1 1.7.7 2.4.8 3.3.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+            </a>
+            <a href="#" class="icon-btn icon-btn--text" aria-label="Pedir pelo aplicativo de delivery">delivery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CARDÁPIO ===== -->
+    <section class="menu section" id="cardapio">
+      <div class="menu__header">
+        <h2>Os <span class="text-green">favoritos</span> da casa</h2>
+        <p>Escolha uma categoria e se prepare para ficar com água na boca.</p>
+      </div>
+      <div class="container">
+        <div class="tabs" role="tablist" aria-label="Categorias do cardápio">
+          <button class="tab is-active" role="tab" aria-selected="true" aria-controls="tab-pratos" id="btn-pratos">Pratos</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="tab-petiscos" id="btn-petiscos" tabindex="-1">Petiscos</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="tab-bebidas" id="btn-bebidas" tabindex="-1">Bebidas</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="tab-sobremesas" id="btn-sobremesas" tabindex="-1">Sobremesas</button>
+        </div>
+
+        <div class="tab-panel is-active" id="tab-pratos" role="tabpanel" aria-labelledby="btn-pratos">
+          <ul class="menu-list">
+            <li><div><h3>Feijoada completa</h3><p>Feijão preto, carnes nobres, couve, farofa, laranja e arroz.</p></div><span class="price">R$ 69,90</span></li>
+            <li><div><h3>Picanha na brasa</h3><p>400 g de picanha, mandioca frita, vinagrete e farofa da casa.</p></div><span class="price">R$ 89,90</span></li>
+            <li><div><h3>Baião de dois</h3><p>Arroz, feijão verde, queijo coalho, carne de sol e nata.</p></div><span class="price">R$ 54,90</span></li>
+            <li><div><h3>Moqueca de peixe</h3><p>Peixe branco, leite de coco, dendê, pimentões e pirão.</p></div><span class="price">R$ 79,90</span></li>
+            <li><div><h3>Panceta pururuca</h3><p>Panceta crocante com limão, feijão tropeiro e couve.</p></div><span class="price">R$ 64,90</span></li>
+            <li><div><h3>Escondidinho de carne seca</h3><p>Purê de mandioca gratinado com carne seca desfiada.</p></div><span class="price">R$ 49,90</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-petiscos" role="tabpanel" aria-labelledby="btn-petiscos" hidden>
+          <ul class="menu-list">
+            <li><div><h3>Coxinha de frango (6 un.)</h3><p>Massa crocante e recheio cremoso com catupiry.</p></div><span class="price">R$ 29,90</span></li>
+            <li><div><h3>Pão de queijo mineiro</h3><p>Porção com 10 unidades, saído do forno.</p></div><span class="price">R$ 22,90</span></li>
+            <li><div><h3>Torresmo de rolo</h3><p>Crocante por fora, macio por dentro, com limão.</p></div><span class="price">R$ 34,90</span></li>
+            <li><div><h3>Bolinho de bacalhau</h3><p>8 unidades com molho de pimenta da casa.</p></div><span class="price">R$ 39,90</span></li>
+            <li><div><h3>Espetinhos mistos</h3><p>Carne, frango e linguiça com farofa e vinagrete.</p></div><span class="price">R$ 44,90</span></li>
+            <li><div><h3>Mandioca frita</h3><p>Porção generosa com maionese verde.</p></div><span class="price">R$ 24,90</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-bebidas" role="tabpanel" aria-labelledby="btn-bebidas" hidden>
+          <ul class="menu-list">
+            <li><div><h3>Caipirinha de limão</h3><p>Cachaça artesanal, limão e açúcar.</p></div><span class="price">R$ 24,90</span></li>
+            <li><div><h3>Caipirinha de maracujá</h3><p>Fruta fresca batida na hora.</p></div><span class="price">R$ 26,90</span></li>
+            <li><div><h3>Batida de coco</h3><p>Leite de coco, leite condensado e cachaça.</p></div><span class="price">R$ 27,90</span></li>
+            <li><div><h3>Suco de caju</h3><p>Natural, 500 ml.</p></div><span class="price">R$ 12,90</span></li>
+            <li><div><h3>Guaraná da casa</h3><p>Com limão e gelo, 500 ml.</p></div><span class="price">R$ 10,90</span></li>
+            <li><div><h3>Chope gelado</h3><p>Pilsen, 400 ml.</p></div><span class="price">R$ 14,90</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-sobremesas" role="tabpanel" aria-labelledby="btn-sobremesas" hidden>
+          <ul class="menu-list">
+            <li><div><h3>Pudim de leite</h3><p>Receita de família, calda de caramelo.</p></div><span class="price">R$ 16,90</span></li>
+            <li><div><h3>Brigadeiro de colher</h3><p>Chocolate belga e granulado.</p></div><span class="price">R$ 14,90</span></li>
+            <li><div><h3>Romeu e Julieta</h3><p>Goiabada cascão com queijo minas.</p></div><span class="price">R$ 15,90</span></li>
+            <li><div><h3>Cocada cremosa</h3><p>Servida quentinha com sorvete de creme.</p></div><span class="price">R$ 18,90</span></li>
+          </ul>
+        </div>
+
+        <div class="menu__cta">
+          <a href="#delivery" class="btn">Peça agora</a>
+          <p>Já está seguindo a <a href="#" class="text-green">@brasaverde</a> no Instagram?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="reviews section" id="depoimentos">
+      <div class="container">
+        <h2>O que nossos <span class="text-black">clientes</span> dizem</h2>
+        <p class="reviews__sub">Quem prova, volta!</p>
+        <div class="reviews__grid">
+          <article class="review reveal">
+            <header><span class="avatar" aria-hidden="true">M</span><div><strong>Mariana C.</strong><span class="stars" aria-label="5 de 5 estrelas">★★★★★</span></div></header>
+            <p>A feijoada é a melhor que já comi fora de casa. Atendimento rápido e ambiente muito gostoso.</p>
+          </article>
+          <article class="review reveal">
+            <header><span class="avatar" aria-hidden="true">J</span><div><strong>João P.</strong><span class="stars" aria-label="5 de 5 estrelas">★★★★★</span></div></header>
+            <p>Pedi pelo delivery e chegou tudo quentinho. A picanha estava no ponto certinho. Recomendo!</p>
+          </article>
+          <article class="review reveal">
+            <header><span class="avatar" aria-hidden="true">R</span><div><strong>Renata S.</strong><span class="stars" aria-label="5 de 5 estrelas">★★★★★</span></div></header>
+            <p>Lugar perfeito para reunir a família. Caipirinha caprichada e porções muito bem servidas.</p>
+          </article>
+        </div>
+        <a href="#" class="btn btn--dark">Veja mais avaliações</a>
+      </div>
+    </section>
+
+    <div class="stripes stripes--bar" aria-hidden="true"></div>
+
+    <!-- ===== SOBRE NÓS ===== -->
+    <section class="about section" id="sobre">
+      <div class="container about__inner">
+        <div class="about__text reveal">
+          <h2>Muito além de um restaurante<br><span class="text-green">um abraço em forma de comida</span></h2>
+          <p>Na Brasa Verde, acreditamos que comer bem é um direito, não um luxo.</p>
+          <p>Nossa filosofia é simples: <span class="text-green">mesa farta e tempero de verdade</span>. Cada receita carrega um pedaço do Brasil, do feijão tropeiro mineiro à moqueca baiana, do churrasco gaúcho ao baião nordestino.</p>
+          <p>Aqui, cozinhar é sobre servir pratos que matam a fome e celebram o prazer de estar à mesa com quem a gente gosta.</p>
+        </div>
+        <div class="about__media reveal">
+          <img src="assets/img/rodizio-brasileiro.webp" alt="Mesa de restaurante com espetos, petiscos brasileiros e drinks" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESERVAS ===== -->
+    <section class="booking section" id="reservas">
+      <div class="container booking__inner">
+        <div class="booking__text">
+          <h2>Garanta a sua <span class="text-green">mesa</span></h2>
+          <p>Aniversário, almoço em família ou aquele happy hour com os amigos? Reserve com antecedência e a gente prepara tudo para você.</p>
+        </div>
+        <form class="booking__form" id="form-reserva" novalidate>
+          <label>Nome
+            <input type="text" name="nome" required placeholder="Seu nome">
+          </label>
+          <label>Telefone
+            <input type="tel" name="telefone" required placeholder="(00) 00000-0000">
+          </label>
+          <div class="form-row">
+            <label>Data
+              <input type="date" name="data" required>
+            </label>
+            <label>Horário
+              <input type="time" name="hora" required min="11:00" max="23:00">
+            </label>
+            <label>Pessoas
+              <input type="number" name="pessoas" required min="1" max="30" value="2">
+            </label>
+          </div>
+          <button type="submit" class="btn">Reservar pelo WhatsApp</button>
+          <p class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="faq section" id="faq">
+      <div class="container container--narrow">
+        <h2>Perguntas frequentes</h2>
+        <div class="faq__list">
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Quais formas de pagamento vocês aceitam?<span class="faq__icon" aria-hidden="true"></span></button>
+            <div class="faq__a" hidden><p>Aceitamos PIX, cartões de crédito e débito e os principais vales-refeição.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Vocês fazem entrega?<span class="faq__icon" aria-hidden="true"></span></button>
+            <div class="faq__a" hidden><p>Sim! Fazemos entregas pelo WhatsApp e pelos principais aplicativos de delivery da região.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Tem opções vegetarianas?<span class="faq__icon" aria-hidden="true"></span></button>
+            <div class="faq__a" hidden><p>Temos sim: feijoada vegana, moqueca de banana-da-terra e várias porções sem carne.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Preciso reservar mesa?<span class="faq__icon" aria-hidden="true"></span></button>
+            <div class="faq__a" hidden><p>Não é obrigatório, mas nos fins de semana recomendamos reservar para garantir seu lugar.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer" id="contato">
+    <div class="footer__title">
+      <h2>Você sabe onde nos encontrar?</h2>
+    </div>
+    <div class="footer__map">
+      <iframe title="Mapa com a localização da Brasa Verde" src="https://www.google.com/maps?q=Rio+de+Janeiro&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="container footer__grid">
+      <div>
+        <a href="#inicio" class="logo logo--footer">
+          <span class="logo__icon" aria-hidden="true"><svg viewBox="0 0 32 32" width="28" height="28"><path d="M16 3c2 5 7 7 7 14a7 7 0 0 1-14 0c0-4 2-6 3-8 1 3 2 4 3 4 0-4-1-7 1-10z" fill="currentColor"/></svg></span>
+          <span class="logo__text">Brasa<strong>Verde</strong></span>
+        </a>
+        <p>Rua Exemplo, 123, Centro, Rio de Janeiro, RJ</p>
+        <p>Terça a domingo, das 11h às 23h</p>
+      </div>
+      <div>
+        <h3>Siga-nos</h3>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" class="icon-btn icon-btn--sm"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7c-.1-1.6-.4-3-1.6-4.2S17.6 1.2 16 1.1C14.3 1 9.7 1 8 1.1 6.4 1.2 5 1.5 3.8 2.7S2.2 5.4 2.1 7C2 8.7 2 13.3 2.1 15c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.3.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.3.2-8zM19.7 18a3.3 3.3 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.9.4s-4.6.1-5.9-.4A3.3 3.3 0 0 1 4.3 18c-.5-1.3-.4-4.3-.4-5.9s-.1-4.6.4-5.9A3.3 3.3 0 0 1 6.1 4.4C7.4 3.9 10.4 4 12 4s4.6-.1 5.9.4a3.3 3.3 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.9s.1 4.6-.4 5.9z"/></svg></a>
+          <a href="#" aria-label="Facebook" class="icon-btn icon-btn--sm"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 8V6c0-.9.6-1 1-1h3V1h-4c-4 0-5 3-5 5v2H6v4h3v11h5V12h3.5l.5-4H14z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3>Peça agora e prove o sabor do Brasil</h3>
+        <p><a href="https://wa.me/5521900000000" target="_blank" rel="noopener" class="text-green">(21) 90000-0000</a></p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="ano">2026</span> Brasa Verde. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="#topo" class="back-to-top" aria-label="Voltar ao topo">↑</a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
